@@ -1,4 +1,4 @@
-my_file = open("10chronopress_datloc.tsv", "r", encoding="utf-8")  # change filename to execute for a different file
+my_file = open("annotations/10chronopress_datloc.tsv", "r", encoding="utf-8")  # change filename to execute for a different file
 
 header = next(my_file).strip().split("\t")
 
