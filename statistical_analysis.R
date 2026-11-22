@@ -101,7 +101,7 @@ p <- ggplot(diachronic_stats,
   geom_errorbar(aes(ymin = ci_low_gen, ymax = ci_high_gen),
                 width = 0.12, linewidth = 0.5) +
   scale_x_discrete(labels = c("15th to 18th century", "19th to early 20th century",
-                              "20th to 21st century", "21st century")) +
+                              "Late 20th to early 21st century", "21st century")) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1),
                      limits = c(0, 1), expand = c(0, 0)) +
   scale_color_manual(values = c("DAT" = "black",
